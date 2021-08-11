@@ -103,6 +103,23 @@ body {
   overflow-y: scroll;
 }
 
+.breadcrumb {
+  padding: 1rem 0 0 0;
+  opacity: 0.5;
+  background-color: transparent;
+  font-size: 14px;
+}
+.breadcrumb a {
+  color: #ffffff;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: #ffffff;
+}
+.breadcrumb-item.active {
+  color: #ffffff;
+}
+
 .sidebar-filter {
   padding: 15px 30px 30px;
   color: #ffffff;
