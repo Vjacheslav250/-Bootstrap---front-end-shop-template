@@ -1,10 +1,11 @@
 .sidebar-filter {
   padding: 15px 30px 30px;
-  color: #ffffff;
+
+  color: $color-light;
 
   @media (min-width: 992px) {
-    border-right: 1px solid #ffffff;
-    background-color: rgba(255, 255, 255, 0.25);
+    border-right: 1px solid $color-light;
+    background-color: rgba($color-light, 0.25);
   }
 
   @media (max-width: 991px) {
@@ -54,14 +55,17 @@
 
   &__more {
     display: block;
+
     margin-bottom: 30px;
-    color: #ffffff;
+
+    color: $color-light;
+
     font-size: 1.25rem;
   }
 
   &__submit {
-    border: 1px solid #ffffff;
+    border: 1px solid $color-light;
     border-radius: 0;
-    background-color: #2c71b6;
+    background-color: $color-dark;
   }
 }
